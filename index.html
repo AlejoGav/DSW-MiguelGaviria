@@ -1,18 +1,124 @@
-<html>
-	<head>
-		<title>CSS3: Estilos internos y Externos,Selectores CSS </title>
-	</head>
-	<body>
-<h1>Nombre: Miguel Alejandro Gaviria Plazas</h1>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS3: Estilos internos y Externos, Selectores CSS</title>
+	<link rel="stylesheet" href="estilos.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="main.js"></script>
 
-<h2>Código: 80931708</h2>
+</head>
+<body>
+	<section class="title">
+	<h1>CSS3: Estilos internos y Externos, Selectores CSS</h1>
+	</section>
 
-<h2>Programa de Ingeniería de Sistemas</h2>
+<div class="navegacion">
+	<ul class="menus">
+		<li><a href="#menu1">
+		<img src="image/Inicio.png" alt="" class="imagen">
+		<span class="text-item">INICIO</span>
+		<span class="down-item"></span></a></li>        
+		
+		<li><a href="#menu2">
+		<img src="image/Conceptos.png" alt="" class="imagen">
+		<span class="text-item">CONCEPTOS</span>
+		<span class="down-item"></span></a></li>
+		
+		<li><a href="#menu3">
+		<img src="image/Recursos.png" alt="" class="imagen">
+		<span class="text-item">RECURSOS</span>
+		<span class="down-item"></span></a></li>
+		
+		<li><a href="#menu4">
+		<img src="image/Autoevaluacion.png" alt="" class="imagen">
+		<span class="text-item">AUTOEVALUACION</span>
+		<span class="down-item"></span></a></li>
+		
+		<li><a href="#menu5">
+		<img src="image/Autor.png" alt="" class="imagen">
+		<span class="text-item">AUTOR</span>
+		<span class="down-item"></span></a></li>
+	</ul>
+</div>
+<div class="secciones">
+	<article id="menu1">
+	<p>
+	1. &#191;Qu&eacute; es CSS?</p>
+<p>
+	2. Ventajas</p>
+<p>
+	3. &#191;C&oacute;mo se vinculan el CSS y el HTML?</p>
+<p>
+	4. Selectores</p></article>
 
-<h2>Diseño de Sitios Web</h2>
+	<article id="menu2">
+	<p>&#191;QUE ES CSS?
+	Una p&aacute;gina web es realmente un documento de texto. En dicho documento se escribe c&oacute;digo HTML, con el que se que crea el contenido de una 	web. 	Por otro lado, existe el c&oacute;digo CSS, que unido al c&oacute;digo HTML permite darle forma, color, posici&oacute;n (y otras caracter&iacute;sticas 	visuales) a una p&aacute;gina
+
+	Las siglas CSS (Cascading Style Sheets) significan &#34;Hojas de estilo en cascada&#34; y parten de un concepto simple pero muy potente: aplicar estilos 		(colores, formas, m&aacute;rgenes, etc...) a uno o varios documentos (generalmente 	documentos HTML, p&aacute;ginas webs) de forma masiva.
+	Se le denomina estilos en cascada porque se aplican de arriba a abajo (siguiendo un 		patr&oacute;n denominado herencia que trataremos m&aacute;s 	adelante) y en el caso de existir ambiguedad, se siguen una serie de normas para resolverla.
+
+	VENTAJAS
+	1. Es m&aacute;s f&aacute;cil crear versiones diferentes de presentaci&oacute;n para 	otros tipos de dispositivos: tablets, smartphones o dispositivos m&oacute;viles, 	etc...
+	2. Presentar el documento final en diferentes estilos (pantalla, voz, 	impresi&oacute;n);
+	3. Evitar hacer archivos demasiado pesados;
+	4. Definir el estilo visual de todo un sitio web. As&iacute;, si cambiamos una 	p&aacute;gina, cambiar&aacute;n todas autom&aacute;ticamente;
+	5. Trabajar con est&aacute;ndares y separar (hasta cierto punto) la estructura de la 		presentaci&oacute;n logrando un trabajo m&aacute;s definido;
+	6. Provee m&aacute;s flexibilidad y control en las especificaciones del sitio web.
+
+	&#191;COMO SE VINCULAN EL CSS Y EL HTML?
+	El HTML y CSS tienen una relaci&oacute;n muy fuerte entre ellos, ya que el HTML es un 		lenguaje de marcado (constituye la base de un sitio web) y CSS define el estilo de la 		p&aacute;gina (toda la parte est&eacute;tica).
 
 
-<h2><a href="Planing.html">Planing: CSS3 Estilos internos y Externos, Selectores CSS</a></h2>
+	SELECCTORES CSS
 
-	</body>
+	1. Selector de tipo
+	Selecciona todos los elementos que coinciden con el nombre del elemento especificado.
+	Sintaxis: eltname
+	Ejemplo: input se aplicar&aacute; a cualquier elemento &#34;input&#34;.
+
+	2. Selector de clase
+	Selecciona todos los elementos que tienen el atributo de class especificado.
+	Sintaxis: .classname
+	Ejemplo: .index seleccionar&aacute; cualquier elemento que tenga la clase "index".
+
+	3. Selector de ID
+	Selecciona un elemento bas&aacute;ndose en el valor de su atributo id. Solo puede 		haber un elemento con un determinado ID dentro de un documento.
+	Sintaxis: #idname
+	Ejemplo: #toc se aplicar&aacute; a cualquier elemento que tenga el ID &#34;toc&#34;.
+
+	4. Selector universal
+	Selecciona todos los elementos. Opcionalmente, puede estar restringido a un espacio de 	nombre espec&iacute;fico o a todos los espacios de nombres.
+	Sintaxis: * ns|* *|*
+	Ejemplo: * se aplicar&aacute; a todos los elementos del documento.
+	
+	5. Selector de atributo
+	Selecciona elementos bas&aacute;ndose en el valor de un determinado atributo.
+	Sintaxis: [attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] 		[attr*=value]
+	Ejemplo: [autoplay] seleccionar&aacute; todos los elementos que tengan el atributo 		&#34;autoplay&#34; establecido (a cualquier valor).
+	</p>
+	</article>
+	<article id="menu3">
+	<p>
+	1. &#191;Qu&eacute; es CSS?
+
+	2. Ventajas
+
+	3. &#191;C&oacute;mo se vinculan el CSS y el HTML?
+
+	4. Selectores</p></article>
+
+	<article id="menu4">
+	<p>
+	1. &#191;Qu&eacute; es CSS?
+
+	2. Ventajas
+
+	3. &#191;C&oacute;mo se vinculan el CSS y el HTML?
+
+	4. Selectores</p>
+	</article>
+	</div>
+	
+
+</body>
 </html>

@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body	{
+	font-family: 'Franklin Gothic Heavy';
+	}
+	
+	a{
+	text-decoration: none;
+	}
+
+	ul{
+	list-style: none;
+	}
+
+.title	{
+	width: 100%;
+	background: #005883;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	}
+
+.title h1{
+	color: #FFFFFF;
+	font-size: 40px;
+	font-weight: 0;
+	text-align: center;
+	}
+
+
+.navegacion{
+	width: 100%;
+	background: #F47920;
+	display: flex;
+	justify-content: center;
+	}
+
+.menus{
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 45px;
+}
+
+.menus li{
+	flex-basis: 0;
+	flex-grow: 1;
+	border-right: 10px solid #F47920;
+	position: relative;
+	}
+
+.menus li a{
+	display: flex;
+	flex-direction: column;
+	font-size: 18px;
+}
+
+.menus .imagen{
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+	width: 0%;
+	z-index:30;
+	}
+
+.menus li a .text-item{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	top: 0%;
+	position: absolute;
+	z-index: 30;
+	}
+
+.menus li a .down-item{
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	background: #F0B429; 
+
+	}
+
+.menus li:hover .down-item, .menus li:hover .text-item{
+	top: 100%;
+	height: 115%;
+}
+.menus li:hover .imagen{
+	width: 50%;
+	right: 50px;
+	}
+
+.secciones{
+	width: 100%
+	background: #FFFFFF;
+	}
+
+.secciones article{
+	padding: 30px
+	}
+
+.secciones article p{
+	text-align: justify;
+	}
