@@ -99,7 +99,7 @@ body	{
 
 .secciones{
 	width: 100%
-	background: #FFFFFF;
+	background: #B3B3B3;
 	}
 
 .secciones article{
@@ -111,3 +111,12 @@ body	{
 	color: #333333;
 	top: 90%;
 	}
+
+aside{
+	width:500px;
+	heigth:450px;
+	float: right;
+	margin-top: 10px;
+	float: rigth;
+}
+
