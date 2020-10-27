@@ -1,73 +1,53 @@
 *{
 margin: 0;
-padding: 0;
-}
+padding: 0;}
 
 body	{
-	font-family: 'Franklin Gothic Heavy';
-	}
+	font-family: 'Franklin Gothic Heavy';}
 	
 	a{
-	text-decoration: none;
-	}
+	text-decoration: none;}
 
 	ul{
-	list-style: none;
-	}
+	list-style: none;}
 
-.title	{
-	width: 100%;
+.title	{width: 100%;
 	background: #005883;
 	height: 80px;
 	display: flex;
-	justify-content: center;
-	}
+	justify-content: center;}
 
-.title h1{
-	color: #FFFFFF;
+.title h1{color: #FFFFFF;
 	font-size: 40px;
 	font-weight: 0;
-	text-align: center;
-	}
+	text-align: center;}
 
-
-.navegacion{
-	width: 100%;
+.navegacion{width: 100%;
 	background: #F47920;
 	display: flex;
-	justify-content: center;
-	}
+	justify-content: center;}
 
-.menus{
-	width: 1000px;
+.menus{	width: 1000px;
 	display: flex;
 	flex-wrap: wrap;
-	height: 45px;
-}
+	height: 45px;}
 
-.menus li{
-	flex-basis: 0;
+.menus li{flex-basis: 0;
 	flex-grow: 1;
 	border-right: 10px solid #F47920;
-	position: relative;
-	}
+	position: relative;}
 
-.menus li a{
-	display: flex;
+.menus li a{display: flex;
 	flex-direction: column;
-	font-size: 18px;
-}
+	font-size: 18px;}
 
-.menus .imagen{
-	position: absolute;
+.menus .imagen{position: absolute;
 	bottom: 0;
 	right: 100px;
 	width: 0%;
-	z-index:30;
-	}
+	z-index:30;}
 
-.menus li a .text-item{
-	width: 100%;
+.menus li a .text-item{width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -76,47 +56,38 @@ body	{
 	color: #FFFFFF;
 	top: 0%;
 	position: absolute;
-	z-index: 30;
-	}
+	z-index: 30;}
 
 .menus li a .down-item{
 	position: absolute;
 	top: 0%;
 	width: 100%;
 	height: 100%;
-	background: #F0B429; 
-
-	}
+	background: #F0B429;}
 
 .menus li:hover .down-item, .menus li:hover .text-item{
 	top: 100%;
-	height: 115%;
-}
+	height: 115%;}
+
 .menus li:hover .imagen{
 	width: 50%;
-	right: 50px;
-	}
+	right: 50px;}
 
-.secciones{
-	width: 100%
-	background: #B3B3B3;
-	}
+.secciones{width: 10%
+	background: #B3B3B3;}
 
 .secciones article{
-	padding: 30px
-	}
+	padding: 30px}
 
 .secciones article p{
 	text-align: justify;
 	color: #333333;
-	top: 90%;
-	}
+	width:900px;}
 
-aside{
-	width:500px;
-	heigth:450px;
+aside{	width:300px;
+	heigth:250px;
 	float: right;
 	margin-top: 10px;
-	float: rigth;
-}
+	float: rigth;}
 
+img{float: left;}

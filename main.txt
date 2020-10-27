@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$('ul.menus li a').removeClass('active');
 	$(this).addClass('active');
 	$('.secciones article').hide();
-	$('asides').hide();
+	
 
 	var activeTab = $(this).attr('href');
 	$(activeTab).show();
