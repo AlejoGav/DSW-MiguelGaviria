@@ -23,7 +23,6 @@ body	{
 
 .title h1{color: #FFFFFF;
 	font-size: 40px;
-	font-weight: 0;
 	text-align: center;}
 
 .navegacion{
@@ -67,10 +66,8 @@ secciones article p{
 	width:900px;}
 
 aside{	width:300px;
-	heigth:250px;
-	float: right;
 	margin-top: 10px;
-	float: rigth;}
+	}
 
 img{float: left;}
 
