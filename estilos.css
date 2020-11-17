@@ -66,6 +66,8 @@ secciones article p{
 	width:900px;}
 
 aside{	width:300px;
+	heigth:250px;
+	float: right;
 	margin-top: 10px;
 	}
 
